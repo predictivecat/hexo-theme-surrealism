@@ -35,18 +35,18 @@
 
 #header-title
   text-align: center
-  height: logo-size
+  height: 80px
   position: absolute
   top: 50%
   left: 0
   margin-top: logo-size * -0.5
-  font-family: "STZhongsong", "Garamond", serif
-  font-size: 52px
+  font-family: "STZhongsong", "Sitka Banner", serif
+  font-size: 70px
   color: #730000
 
 $logo-text
   text-decoration: none
-  color: #fff
+  color: #FFE79A //change from #fff
   font-weight: 300
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3)
 
@@ -84,9 +84,9 @@ $nav-link
 .nav-icon
   @extend $nav-link
   text-align: center
-  font-size: font-size
-  width: font-size
-  height: font-size
+  font-size: icon-size
+  width: icon-size
+  height: icon-size
   padding: 20px 15px
   position: relative
   cursor: pointer
@@ -94,6 +94,7 @@ $nav-link
 .main-nav-link
   @extend $nav-link
   font-weight: 300
+  font-size: icon-size
   letter-spacing: 1px
   @media mq-mobile
     display: none
@@ -128,8 +129,8 @@ $nav-link
   left: 0
   right: 0
   background: #fff
-  padding: 5px 15px
-  border-radius: 15px
+  padding: 5px 26px
+  border-radius: 26px
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
 
 .search-form-input
@@ -137,7 +138,7 @@ $nav-link
   background: none
   color: color-default
   width: 100%
-  font: 13px font-sans
+  font: 20px font-sans
   outline: none
   &::-webkit-search-results-decoration
   &::-webkit-search-cancel-button
